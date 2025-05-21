@@ -1,0 +1,292 @@
+18:55:22 **** Build of configuration Debug for project Sine_Wave ****
+"C:\\Users\\Dell\\ModusToolbox\\tools_3.5\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Dell/ModusToolbox/tools_3.5 CY_IDE_BT_TOOLS_DIR= -j12 build_proj 
+Tools Directory: C:/Users/Dell/ModusToolbox/tools_3.5
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/Dell/ModusToolbox/tools_3.5/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: tinyml-sine-wave-demo Debug APP_CY8CKIT-062-BLE GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'A:/TinyML/Sine_Wave'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[2/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/bluetooth/cybsp_bt_config.o
+[3/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg_capsense.o
+[4/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/COMPONENT_CM4/system_psoc6_cm4.o
+[5/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[6/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg_routing.o
+[7/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg_qspi_memslot.o
+[8/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/ml-middleware/source/mtb_ml_nnlite.o
+[9/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/ml-middleware/source/mtb_ml_rtos.o
+[10/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg_clocks.o
+[11/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg_peripherals.o
+[12/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg.o
+[13/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/ml-middleware/source/mtb_ml_utils.o
+[14/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_BLESS/psoc6_cm0p_bless.o
+[15/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg_pins.o
+[16/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/cybsp.o
+[17/248] Building object file A:/TinyML/Sine_Wave/build/Debug/bsps/APP_CY8CKIT-062-BLE/config/GeneratedSource/cycfg_system.o
+[18/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/ml-middleware/source/mtb_ml.o
+[19/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble.o
+[20/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble_usb.o
+[21/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga_sip.o
+[22/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_usb.o
+[23/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_ble.o
+[24/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_68_qfn_ble.o
+[25/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga.o
+[26/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_80_wlcsp.o
+[27/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_43_smt.o
+[28/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_128_tqfp.o
+[29/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_100_wlcsp.o
+[30/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_124_bga.o
+[31/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_68_qfn.o
+[32/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_49_wlcsp.o
+[33/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_100_tqfp.o
+[34/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_68_qfn.o
+[35/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_68_qfn.o
+[36/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_64_tqfp.o
+[37/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_100_lqfp.o
+[38/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_m_csp.o
+[39/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_176_lqfp.o
+[40/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_64_lqfp.o
+[41/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_tqfp.o
+[42/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_144_lqfp.o
+[43/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_80_lqfp.o
+[44/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_100_lqfp.o
+[45/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_176_lqfp.o
+[46/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_144_lqfp.o
+[47/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_80_lqfp.o
+[48/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_64_lqfp.o
+[49/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_144_lqfp.o
+[50/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_100_lqfp.o
+[51/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_176_lqfp.o
+[52/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_64_lqfp.o
+[53/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_02.o
+[54/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_80_lqfp.o
+[55/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_01.o
+[56/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_03.o
+[57/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_04.o
+[58/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe1m.o
+[59/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe2m.o
+[60/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe4m.o
+[61/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_analog_common.o
+[62/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_mic.o
+[63/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_sar.o
+[64/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp.o
+[65/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_audio_common.o
+[66/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_lp.o
+[67/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_ctb.o
+[68/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_clock.o
+[69/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma.o
+[70/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crc.o
+[71/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crypto_common.o
+[72/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dmac.o
+[73/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dac.o
+[74/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dw.o
+[75/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2s.o
+[76/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ezi2c.o
+[77/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_gpio.o
+[78/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_hwmgr.o
+[79/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_irq_impl.o
+[80/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2c.o
+[81/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ipc.o
+[82/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_interconnect.o
+[83/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_keyscan.o
+[84/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_lptimer.o
+[85/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_nvm.o
+[86/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_opamp.o
+[87/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pdmpcm.o
+[88/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pwm.o
+[89/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_qspi.o
+[90/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_rtc.o
+[91/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_sdhc.o
+[92/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_scb_common.o
+[93/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_spi.o
+[94/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_syspm.o
+[95/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tcpwm_common.o
+[96/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_system.o
+[97/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_timer.o
+[98/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tdm.o
+[99/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_trng.o
+[100/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_adcmic.o
+[101/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_udb_sdio.o
+[102/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/devices/COMPONENT_CAT1A/source/cy_device.o
+[103/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_axidmac.o
+[104/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_canfd.o
+[105/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_usb_dev.o
+[106/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_quaddec.o
+[107/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ble_clk.o
+[108/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils.o
+[109/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cordic.o
+[110/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils_impl.o
+[111/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_wdt.o
+[112/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_uart.o
+[113/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v1.o
+[114/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v2.o
+[115/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v1.o
+[116/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v1.o
+[117/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v2.o
+[118/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto.o
+[119/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v2.o
+[120/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v1.o
+[121/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_domain_params.o
+[122/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v2.o
+[123/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ec25519.o
+[124/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v2.o
+[125/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_key_gen.o
+[126/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hkdf_v2.o
+[127/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_eddsa.o
+[128/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ecdsa.o
+[129/248] Building object file A:/TinyML/Sine_Wave/build/Debug/local/source/main.o
+[130/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw_v1.o
+[131/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw.o
+[132/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v1.o
+[133/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v2.o
+[134/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v1.o
+[135/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v1.o
+[136/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_nist_p.o
+[137/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v2.o
+[138/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_trng.o
+[139/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes.o
+[140/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v2.o
+[141/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_rsa.o
+[142/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v1.o
+[143/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_key_gen.o
+[144/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes_ccm.o
+[145/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_vu.o
+[146/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hkdf.o
+[147/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_cmac.o
+[148/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecdsa.o
+[149/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_eddsa.o
+[150/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_ec25519.o
+[151/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_server.o
+[152/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hmac.o
+[153/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_nist_p.o
+[154/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_sha256.o
+[155/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_utils.o
+[156/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_rsa.o
+[157/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_vu.o
+[158/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_trng.o
+[159/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dma.o
+[160/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_csd.o
+[161/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse.o
+[162/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dmac.o
+[163/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctb.o
+[164/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ephy.o
+[165/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ethif.o
+[166/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctdac.o
+[167/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse_v3.o
+[168/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_v2.o
+[169/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_evtgen.o
+[170/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_srom.o
+[171/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_gpio.o
+[172/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_ac.o
+[173/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash.o
+[174/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass.o
+[175/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_sar.o
+[176/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_csg.o
+[177/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_keyscan.o
+[178/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_bt.o
+[179/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_drv.o
+[180/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_pipe.o
+[181/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_i2s.o
+[182/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd_ht.o
+[183/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lin.o
+[184/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd.o
+[185/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lpcomp.o
+[186/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_sema.o
+[187/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt.o
+[188/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt_b.o
+[189/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mixer.o
+[190/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm.o
+[191/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mpc.o
+[192/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm_v2.o
+[193/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ms_ctl.o
+[194/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ppc.o
+[195/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra.o
+[196/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra_cfg.o
+[197/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_profile.o
+[198/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_prot.o
+[199/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_ezi2c.o
+[200/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_rtc.o
+[201/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar2.o
+[202/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_common.o
+[203/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sd_host.o
+[204/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar.o
+[205/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_i2c.o
+[206/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_uart.o
+[207/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_hb_flash.o
+[208/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_seglcd.o
+[209/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smartio.o
+[210/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif.o
+[211/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_spi.o
+[212/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysanalog.o
+[213/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_sfdp.o
+[214/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysfault.o
+[215/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint_v2.o
+[216/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint.o
+[217/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_memslot.o
+[218/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk_v2.o
+[219/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_pdcm.o
+[220/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk.o
+[221/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syslib.o
+[222/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_btss.o
+[223/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v2.o
+[224/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_ppu.o
+[225/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm.o
+[226/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick.o
+[227/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_counter.o
+[228/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick_v2.o
+[229/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v3.o
+[230/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v4.o
+[231/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_quaddec.o
+[232/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_motif.o
+[233/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_pwm.o
+[234/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_shiftreg.o
+[235/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tdm.o
+[236/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io.o
+[237/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv.o
+[238/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt.o
+[239/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_trigmux.o
+[240/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io_dma.o
+[241/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt_b.o
+[242/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/ppu_v1.o
+[243/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_rx.o
+[244/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_tx.o
+[245/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd.o
+[246/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/retarget-io/source/cy_retarget_io.o
+[247/248] Building object file A:/TinyML/Sine_Wave/build/Debug/libraries_shared/ml-middleware/source/COMPONENT_ML_TFLM/mtb_ml_model.o
+[248/248] Linking, creating elf file build/APP_CY8CKIT-062-BLE/Debug/tinyml-sine-wave-demo.elf
+C:/Users/Dell/Infineon/Tools/mtb-gcc-arm-eabi/11.3.1/gcc/bin/arm-none-eabi-objcopy -O ihex A:/TinyML/Sine_Wave/build/APP_CY8CKIT-062-BLE/Debug/tinyml-sine-wave-demo.elf A:/TinyML/Sine_Wave/build/APP_CY8CKIT-062-BLE/Debug/tinyml-sine-wave-demo.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C6347BZI-BLD53 GCC_ARM
+
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  112144     | 
+  | .text                |  0x10020000   |  301768     | 
+  | .ARM.exidx           |  0x10069ac8   |  8          | 
+  | .copy.table          |  0x10069ad0   |  24         | 
+  | .zero.table          |  0x10069ae8   |  8          | 
+  | .data                |  0x0800328c   |  6604       | 
+  | .cy_sharedmem        |  0x08004c58   |  12         | 
+  | .noinit              |  0x08004c68   |  236        | 
+  | .bss                 |  0x08004d54   |  17320      | 
+  | .heap                |  0x08009100   |  251648     | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          1048576    
+  Total Internal Flash (Utilized)           439496     
+
+
+18:55:43 Build Finished. 0 errors, 0 warnings. (took 20s.345ms)
+
