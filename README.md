@@ -2,10 +2,6 @@
 
 This code example demonstrates running a TensorFlow Lite for Microcontrollers (TFLM) model on a PSoC&trade; 6 MCU. The model predicts the sine of an input value, and the output is used to control the brightness of an LED via PWM, visually representing the sine wave. The example also uses UART for displaying inference results and allowing user interaction (pause/resume).
 
-[View this README on GitHub.](https://github.com/Infineon/psoc6-tflm-sine-wave-demo)
-
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMjM1NDEiLCJTcGVjIE51bWJlciI6IjAwMi0yMzU0MSIsIkRvYyBUaXRsZSI6IlBTb0MgNiBUZW5zb3JGbG93IExpdGUgU2luZSBXYXZlIERlbW8iLCJyaWQiOiJwYXRoaXN1ZGhhcnMiLCJEb2MgdmVyc2lvbiI6IjEuMC4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0)
-
 ## Requirements
 
 - [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.1 or later (tested with v3.1)
