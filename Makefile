@@ -85,7 +85,7 @@ VERBOSE=
 # ... then code in directories named COMPONENT_foo and COMPONENT_bar will be
 # added to the build
 #
-COMPONENTS+=ML_MIDDLEWARE ML_INFERENCE ML_TFLM ML_FLOAT32 ML_TFLITE_MICRO TFLITE_MICRO debug_log
+COMPONENTS+=ML_FLOAT32 ML_TFLM #ML_TFLITE_MICRO TFLITE_MICRO debug_log
 # Like COMPONENTS, but disable optional code that was enabled by default.
 DISABLE_COMPONENTS=
 
@@ -97,10 +97,10 @@ SOURCES=
 
 # Like SOURCES, but for include directories. Value should be paths to
 # directories (without a leading -I).
-INCLUDES=./models ../mtb_shared
+INCLUDES=./models #../mtb_shared
 
 # Add additional defines to the build process (without a leading -D).
-DEFINES+=TF_LITE_STATIC_MEMORY TF_LITE_DISABLE_X86_NEON
+DEFINES+=TF_LITE_STATIC_MEMORY
 
 # Select softfp or hardfp floating point. Default is softfp.
 VFP_SELECT=
@@ -115,7 +115,7 @@ CFLAGS=
 #
 # NOTE: Includes and defines should use the INCLUDES and DEFINES variable
 # above.
-CXXFLAGS=-std=c++11 -fno-rtti -fno-exceptions -fno-threadsafe-statics
+CXXFLAGS=-std=c++11
 
 # Additional / custom assembler flags.
 #
