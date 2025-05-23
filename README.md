@@ -738,12 +738,12 @@ static uint32_t get_time_us(void)
     // 1. Define configuration for the LED blink timer (1-second interrupt).
     const cyhal_timer_cfg_t led_blink_timer_cfg =
     {
-        .compare_value = 0,                 // Timer compare value, not used for simple periodic.
-        .period = LED_BLINK_TIMER_PERIOD,   // Defines the timer period (9999 counts).
-        .direction = CYHAL_TIMER_DIR_UP,    // Timer counts up.
-        .is_compare = false,                // Don't use compare mode.
-        .is_continuous = true,              // Run timer indefinitely.
-        .value = 0                          // Initial value of counter.
+        .is_continuous = true,              // Run timer indefinitely
+        .direction = CYHAL_TIMER_DIR_UP,    // Timer counts up 
+        .is_compare = false,                // Don't use compare mode 
+        .period = LED_BLINK_TIMER_PERIOD,   // Defines the timer period
+        .compare_value = 0,                 // Timer compare value, not used
+        .value = 0                          // Initial value of counter
     };
 
     // 2. Initialize the timer object (`led_blink_timer` is a global from main.c, ensure it's declared).
